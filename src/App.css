@@ -661,7 +661,8 @@ button {
   }
 
   .sidebar-summary {
-    display: none;
+    margin-top: 0;
+    padding: 14px 16px;
   }
 
   .content {
@@ -778,6 +779,16 @@ button {
     width: 28px;
     height: 28px;
     font-size: 0.76rem;
+  }
+
+  .sidebar-summary {
+    gap: 4px;
+    padding: 12px;
+  }
+
+  .sidebar-summary strong {
+    font-size: 1.16rem;
+    overflow-wrap: anywhere;
   }
 
   .content {
